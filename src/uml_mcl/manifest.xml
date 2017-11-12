@@ -1,0 +1,12 @@
+<package>
+  <description brief="uml_mcl">
+    Provides a world and launch file for a simulated 2D world for 
+    implementing Monte Carlo Localization.
+  </description>
+  <author>Nat Tuck</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url></url>
+  <depend package="rospy"/>
+  <depend package="stage"/>
+</package>

@@ -1,0 +1,19 @@
+<package>
+  <description brief="no_weights">
+    A starter solution to uml_mcl.
+  </description>
+  <author>Nat Tuck</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url></url>
+  <export>
+    <python path="${prefix}/src"/>
+    <python path="${prefix}/src/raycaster"/>
+  </export>
+  <depend package="rospy"/>
+  <depend package="sensor_msgs"/>
+  <depend package="nav_msgs"/>
+  <depend package="tf"/>
+</package>
+
+

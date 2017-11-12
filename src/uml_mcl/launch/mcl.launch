@@ -1,0 +1,9 @@
+<!-- -*- xml -*- -->
+<launch>
+    <node name="stage" pkg="stage_ros" type="stageros" required="true" 
+          ns="stage" args="$(find uml_mcl)/share/mcl.world" />
+    <node name="motor" pkg="uml_mcl" type="motor.py" required="true" 
+          output="screen" />
+    <node name="laser" pkg="uml_mcl" type="laser.py" required="true" 
+          output="screen" />
+</launch>

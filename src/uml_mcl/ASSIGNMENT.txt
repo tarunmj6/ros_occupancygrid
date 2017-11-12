@@ -1,0 +1,23 @@
+
+Assignment #6
+
+For assignment #6, you need to write a program that will 
+ 
+ - Localize the robot in the hallway using MCL.
+ - Drive the robot to the position directly between the two red X's.
+ - Once you are there, stop.
+
+To do this, you should only use the following ROS topics:
+
+ - read from /robot/base_scan
+ - write to /robot/cmd_vel
+
+You can also read the image file "hallway.png".
+
+In order to use the sample code, you'll have to install a few packages:
+
+   sudo apt-get install python-numpy python-opengl
+   
+Also, you'll need to build the Python C extension to do raytracing on the image:
+
+   (roscd sample_hw7/src/raycaster && make)
